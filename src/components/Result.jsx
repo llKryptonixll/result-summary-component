@@ -12,7 +12,7 @@ const Result = () => {
 
   return (
     <div className="bg-gradient-to-b from-light_slate_blue to-light_royal_blue md:rounded-3xl rounded-bl-3xl rounded-br-3xl grid justify-items-center items-center md:row-span-5 row-span-2">
-      <p className='md:text-2xl text-xl text-light_lavender'>Your Result</p>
+      <h1 className='md:text-2xl text-xl text-light_lavender'>Your Result</h1>
 
       <div className='bg-gradient-to-b from-violet_blue to-persian_blue md:w-[200px] w-[120px] md:h-[200px] h-[120px] rounded-full grid justify-items-center content-center'>
         <span className='md:text-6xl text-5xl font-extrabold text-white'>{result}</span>
